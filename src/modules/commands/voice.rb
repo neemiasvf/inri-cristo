@@ -192,7 +192,12 @@ module Bot::DiscordCommands
 	  command :dream1 do |event|
 	    voice_bot = event.voice
 	    voice_bot.play_file(AUDIO_FILES_DIR + 'dream1.mp3')
-	  end
+    end
+    
+    command :drusker do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'drusker.mp3')
+    end
 	
     command :dudu1 do |event|
       voice_bot = event.voice
@@ -207,6 +212,11 @@ module Bot::DiscordCommands
     command :dudu3 do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'dudu3.mp3')
+    end
+
+    command :dudu4 do |event\
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'dudu4.mp3')
     end
 
     command :e do |event|
@@ -287,7 +297,12 @@ module Bot::DiscordCommands
 	  command :haha do |event|
 	    voice_bot = event.voice
 	    voice_bot.play_file(AUDIO_FILES_DIR + 'haha.mp3')
-	  end
+    end
+    
+    command :hanzo do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'hanzo.mp3')
+    end
 	
 	  command :hapi1 do |event|
 	    voice_bot = event.voice
@@ -584,6 +599,11 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'nitro2.mp3')
     end
 
+    command :nitro3 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'nitro3.mp3')
+    end
+
     command :nvou do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'nvou.mp3')
@@ -782,6 +802,11 @@ module Bot::DiscordCommands
     command :th2 do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'th2.mp3')
+    end
+
+    command :th3 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'th3.mp3')
     end
 
     command :trap do |event|
