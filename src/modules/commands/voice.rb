@@ -3,11 +3,12 @@ AUDIO_FILES_DIR = 'data/audio/'
 module Bot::DiscordCommands
   module Voice
     extend Discordrb::Commands::CommandContainer
-    command :absucrdos do |event|
-      voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'absurdos.mp3')
-    end
-
+    
+	  command :'1dehp' do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + '1dehp.mp3')
+	  end
+	
     command :'96' do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + '96.mp3')
@@ -72,6 +73,11 @@ module Bot::DiscordCommands
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'azarento.mp3')
     end
+	
+	  command:babalu1 do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR+ 'babalu1.mp3')
+	  end
 
     command :baruch do |event|
       voice_bot = event.voice
@@ -87,6 +93,11 @@ module Bot::DiscordCommands
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'bira.mp3')
     end
+	
+	  command :bizu do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'bizu.mp3')
+	  end
 
     command :bomdia do |event|
       voice_bot = event.voice
@@ -98,6 +109,16 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'brks.mp3')
     end
 
+	  command :brks2 do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'brks2.mp3')
+    end
+    
+    command :c4 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'c4.wav')
+    end
+	
     command :cagado do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'cagado.mp3')
@@ -108,11 +129,21 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'cair.mp3')
     end
 
-    command :cants do |event|
+    command :cants1 do |event|
       voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'cants.mp3')
+      voice_bot.play_file(AUDIO_FILES_DIR + 'cants1.mp3')
     end
 
+	  command :cants2 do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'cants2.mp3')
+	  end
+	
+	  command :capira1 do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'capiroto1.mp3')
+	  end
+	
     command :certamente do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'certamente.mp3')
@@ -158,6 +189,11 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'diamanco.mp3')
     end
 
+	  command :dream1 do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'dream1.mp3')
+	  end
+	
     command :dudu1 do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'dudu1.mp3')
@@ -173,10 +209,15 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'dudu3.mp3')
     end
 
-    command :é do |event|
+    command :e do |event|
       voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'é.mp3')
+      voice_bot.play_file(AUDIO_FILES_DIR + 'e.mp3')
     end
+	
+	  command :entendi do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'entendi.mp3')
+	  end
 
     command :exatamente do |event|
       voice_bot = event.voice
@@ -187,21 +228,46 @@ module Bot::DiscordCommands
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'faceit.mp3')
     end
+	
+	  command :feco do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'feco.mp3')
+	  end
 
     command :fodac do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'fodac.mp3')
     end
+	
+	  command :flick do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'flick.mp3')
+	  end
+	
+	  command :fodac do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'fodac.mp3')
+	  end
 
     command :fone do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'fone.mp3')
     end
+	
+	  command :fudido do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'fudido.mp3')
+	  end
 
     command :gamer do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'gamer.mp3')
     end
+	
+	  command :ganha do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'ganha.mp3')
+	  end
 
     command :gg do |event|
       voice_bot = event.voice
@@ -217,6 +283,21 @@ module Bot::DiscordCommands
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'gravitoins.mp3')
     end
+	
+	  command :haha do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'haha.mp3')
+	  end
+	
+	  command :hapi1 do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'hapi2.mp3')
+	  end
+	
+	  command :hapi2 do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'hapi3.mp3')
+	  end
 
     command :head do |event|
       voice_bot = event.voice
@@ -232,6 +313,11 @@ module Bot::DiscordCommands
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'hepta.mp3')
     end
+	
+	  command :hono do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'hono.mp3')
+   	end
 
     command :imp do |event|
       voice_bot = event.voice
@@ -240,7 +326,7 @@ module Bot::DiscordCommands
 
     command :insanityz do |event|
       voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'insanityz.mp3')
+      voice_bot.play_file(AUDIO_FILES_DIR + 'insanityz1.mp3')
     end
 
     command :jeferson do |event|
@@ -257,20 +343,65 @@ module Bot::DiscordCommands
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'kid.mp3')
     end
+	
+	  command :kid2 do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'kid2.mp3')
+	  end
 
     command :knight do |event|
       voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'knight.mp3')
+      voice_bot.play_file(AUDIO_FILES_DIR + 'knight1.mp3')
     end
+	
+	  command :knight2 do |event|
+	    voice_bot = event.voice
+	    voice_bot.play_file(AUDIO_FILES_DIR + 'knight2.mp3')
+	  end
 
     command :krl do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'krl.mp3')
     end
 
+    command :krk do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'krk1.mp3')
+    end
+
+    command :krk2 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'krk2.mp3')
+    end
+
     command :kyo do |event|
       voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'kyo.mp3')
+      voice_bot.play_file(AUDIO_FILES_DIR + 'kyo1.mp3')
+    end
+
+    command :kyo2 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'kyo2.mp3')
+    end
+
+    command :kyo3 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'kyo3.mp3')
+    end
+
+    command :kyo4 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'kyo4.mp3')
+    end
+
+    command :kyo5 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'kyo5.mp3')
+    end
+
+    command :laguei do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'laguei.mp3')
     end
 
     command :leite do |event|
@@ -281,6 +412,16 @@ module Bot::DiscordCommands
     command :lendaria do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'lendaria.mp3')
+    end
+
+    command :liko do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'liko1.mp3')
+    end
+
+    command :liko2 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'liko2.mp3')
     end
 
     command :lixo do |event|
@@ -328,9 +469,19 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'mercy.mp3')
     end
 
+    command :merda do |event|
+      voice_bot.event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'merda.mp3')
+    end
+
     command :mestre do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'mestre.mp3')
+    end
+
+    command :mesa do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'mesa.mp3')
     end
 
     command :mimde do |event|
@@ -368,9 +519,34 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'mistko6.mp3')
     end
 
+    command :naka do |event|
+       voice_bot = event.voice
+       voice_bot.play_file(AUDIO_FILES_DIR + 'naka2')
+    end 
+
     command :nakasal do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'nakasal.mp3')
+    end
+
+    command :nano do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'nano.mp3')
+    end
+
+    command :naruto do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'naruto.mp3')
+    end
+
+    command :na do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'na.wav')
+    end
+
+    command :nasa do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'nasa.mp3')
     end
 
     command :negao do |event|
@@ -378,7 +554,7 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'negao.mp3')
     end
 
-    command :neil1 do |event|
+    command :neil do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'neil1.mp3')
     end
@@ -393,9 +569,19 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'nek.mp3')
     end
 
-    command :nitro1 do |event|
+    command :newbies do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'newbies.mp3')
+    end
+
+    command :nitro do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'nitro1.mp3')
+    end
+
+    command :nitro2 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'nitro2.mp3')
     end
 
     command :nvou do |event|
@@ -403,14 +589,29 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'nvou.mp3')
     end
 
+    command :olhaso do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'olhaso.mp3')
+    end
+
     command :omega do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'omega.mp3')
     end
 
+    command :orne do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'orne1.mp3')
+    end
+
     command :ouros do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'ouros.mp3')
+    end
+
+    command :pardal do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'pardal1.mp3')
     end
 
     command :pedrok do |event|
@@ -423,7 +624,7 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'pipinha.mp3')
     end
 
-    command :pokiz1 do |event|
+    command :pokiz do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'pokiz1.mp3')
     end
@@ -453,6 +654,21 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'problema.mp3')
     end
 
+    command :protege do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'protege.mp3')
+    end
+
+    command :psyduck do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'psyduck.mp3')
+    end
+
+    command :puto do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'puto.mp3')
+    end
+
     command :qlindo do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'qlindo.mp3')
@@ -466,6 +682,11 @@ module Bot::DiscordCommands
     command :rakz2 do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'rakz2.mp3')
+    end
+
+    command :rakz3 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'rakz3.mp3')
     end
 
     command :reseta do |event|
@@ -483,6 +704,16 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'rolada.mp3')
     end
 
+    command :saul do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'saul2.mp3')
+    end
+
+    command :saiyajin do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'sayajin.mp3')
+    end
+
     command :segredo do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'segredo.mp3')
@@ -498,6 +729,11 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'segredo3.mp3')
     end
 
+    comand :seila do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'seila.mp3'
+    end
+
     command :shield do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'shield.mp3')
@@ -508,7 +744,12 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'snipando.mp3')
     end
 
-    command :soulive1 do |event|
+    command :some do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'some.mp3')
+    end
+
+    command :soulive do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'soulive1.mp3')
     end
@@ -523,7 +764,7 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'sovem.mp3')
     end
 
-    command :stylo1 do |event|
+    command :stylo do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'stylo1.mp3')
     end
@@ -533,14 +774,19 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'stylo2.mp3')
     end
 
-    command :th1 do |event|
+    command :th do |event|
       voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'th1.mp3')
+      voice_bot.play_file(AUDIO_FILES_DIR + 'th0.mp3')
     end
 
     command :th2 do |event|
       voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'th2.wav')
+      voice_bot.play_file(AUDIO_FILES_DIR + 'th2.mp3')
+    end
+
+    command :trap do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'trap.mp3')
     end
 
     command :trocar do |event|
@@ -548,14 +794,14 @@ module Bot::DiscordCommands
       voice_bot.play_file(AUDIO_FILES_DIR + 'trocar.mp3')
     end
 
-    command :ué do |event|
+    command :ue do |event|
       voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'ué.mp3')
+      voice_bot.play_file(AUDIO_FILES_DIR + 'ue.mp3')
     end
 
-    command :ué2 do |event|
+    command :ue2 do |event|
       voice_bot = event.voice
-      voice_bot.play_file(AUDIO_FILES_DIR + 'ué2.mp3')
+      voice_bot.play_file(AUDIO_FILES_DIR + 'ue2.mp3')
     end
 
     command :uli do |event|
@@ -586,6 +832,16 @@ module Bot::DiscordCommands
     command :vinera do |event|
       voice_bot = event.voice
       voice_bot.play_file(AUDIO_FILES_DIR + 'vinera.mp3')
+    end
+
+    command :vinera2 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'vinera2.mp3')
+    end
+
+    command :vinera3 do |event|
+      voice_bot = event.voice
+      voice_bot.play_file(AUDIO_FILES_DIR + 'vinera3.mp3')
     end
 
     command :volta do |event|
